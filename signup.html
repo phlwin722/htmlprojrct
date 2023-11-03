@@ -4,9 +4,10 @@
         <link rel="stylesheet" href="signuphtml.css">
         <script src="https://kit.fontawesome.com/8400d4cb4c.js" crossorigin="anonymous"></script>
         <link rel="icon" type="image/x-icon" href="faviconlogo.PNG">
+        <script src="signup.js"></script>
     </head>
-    <body>
-        <div>
+    <body  onload="generate()">
+        <div class="container1">
             <img class="logoo" src="logo.PNG" alt="">
             <form action="">
                <!--input-->
@@ -19,7 +20,7 @@
             <div class="form-inputt">
                 <div class="form-outputt">   
                    <label  id="iconn" for="inlass"></label>   
-                   <input id="inlass" type="password" class="input-name" required placeholder="Lastname">
+                   <input id="inlass" type="password" class="input-" required placeholder="Lastname">
                 </div>
 
             </div> 
@@ -30,8 +31,8 @@
                 </div>  
             </div> 
                <div class="form-input">
-                <div class="form-output">
-                    <label for="inemail" id="icon"><i class="fa-solid fa-user"></i></label>
+            <div class="form-output">
+                    <label for="inemail" id="icon"><i class="fa-solid fa-envelope"></i></label>
                     <input id="inemail" class="inputfield" type="text" required  placeholder="Email or phone number">
                 </div>
             </div>
@@ -47,6 +48,20 @@
                    <input id="inpass"  class="inputfield" type="password" required placeholder="Re-typed password">
                 </div>
             </div> 
+           <div class="capcha">
+            <div id="user-input" class="inline">
+                    <div class="preview"  id="image" selectable="False" ></div>
+                    <div class="capcha-form">
+                        <input type="text" id="submit" placeholder="Enter Capcha text">
+                        <button class="capcha-refresh" onclick="generate()"><i class="fa-solid fa-arrows-rotate"></i></button>
+                    </div>
+                </div>
+                <div class="form-inputtt">
+                    <input type="checkbox" required>
+                    <h6>I accept the X-shop's Terms of Service and Private Policy</h6>
+                    <button class="login" id="btn" onclick="printmsg()">Signup</button>
+                    <p id="key"></p>
+                </div>
             </form>
         </div>
     </body>

@@ -95,6 +95,7 @@ a{
     height: 50px;
     background-color: white;
     margin: 10px 0px 0px 0px;
+    text-align: center;
 }
 
 .option{
@@ -114,4 +115,9 @@ a{
     font-weight: bold;
     background-color: rgb(146, 146, 146);
     padding: 10px 40px;
+}
+
+.choo:hover{
+    font-weight: bold;
+    background-color: rgb(233, 233, 233);
 }

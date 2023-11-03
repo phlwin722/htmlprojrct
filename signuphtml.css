@@ -2,12 +2,16 @@ body{
     background-color: rgb(41, 22, 72)    ;
 }
 .form-input{
-    max-width: 300px;
+    max-width: 320px;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
   
+}
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .inputfield{
     font-weight: bold;
@@ -58,7 +62,7 @@ body{
 .input-name{
     font-weight: bold;
     font-size: 14px;
-    padding: 8px 0 5px 40px;
+    padding: 8px 0 5px 35px;
     margin-top: 5px;
     line-height: 30px;
     border-radius: 5px;
@@ -70,10 +74,25 @@ body{
     outline: 0;
     color: white;
 }
+.input-{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 8px 0 5px 1px;
+    margin-top: 5px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 2px solid white;
+    display: inline;
+    background-color: transparent;
+    width: 95%;
+    outline: 0;
+    color: white;
+}
 
 .form-outputt{
     position: relative;
-    left: 530px;
+    left: 38px;
     display: flex;
     align-items: left;
     justify-content: left;
@@ -81,8 +100,72 @@ body{
 }
 .form-inputt{
     max-width: 200px;
-    margin-left: -35px;
+    margin-left: -30px;
     display: inline-block;
     align-items: left;
     justify-content: left;
+}
+
+.container1{
+    text-align: center; 
+
+    width: 30%;
+    height: 500px;
+    position: fixed;
+    top:8%;
+    left: 37%;
+}
+
+.preview{
+    color: rgb(172, 17, 125) ;
+    text-align: center;
+    height: 40px;
+    letter-spacing: 8px;
+    line-height: 40px;
+    border: 2px solid white;
+    position: relative;
+    left: 10%;
+    width: 320px;
+    margin-top: 15px 0px;
+    outline-style: outset;
+    font-family: "monospace";
+    border-radius: 5px;
+    background-color: white;
+}
+#submit{
+    font-size: 14px;
+    font-weight: bold;
+    width: 70%;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    padding: 5px 0pc 10px;
+    border-radius: 5px;
+    
+}
+.capcha-refresh{
+    padding: 7px;
+}
+.capcha{
+    margin-top: 10px;
+}
+.form-inputtt{
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+h6{
+    display: inline;
+    color: rgb(161, 161, 161);
+}
+.login{
+    display: block ;
+    padding: 10px 100px;
+    font-weight: bold;
+    margin: 8px 0px 0px 65px;
+    background-image: linear-gradient(to right, #5C258D 0%, #4389A2  51%, #5C258D  100%);
+    border: none;
+    border-radius: 40px;
+    color: white;
 }
