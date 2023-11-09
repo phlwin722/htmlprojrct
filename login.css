@@ -1,6 +1,9 @@
 body{
     background-color: rgb(41, 22, 72)    ;
+    margin: 0px;
+    padding: 0px;
 }
+
 .header{
     border-bottom: 1px solid #CB6CE6;
 }
@@ -11,12 +14,14 @@ body{
    margin-left: 10px;
 }
 .log{
-    border-bottom: 1px solid #CB6CE6;
-    width: 100%;
-    height: 600px;
+    width: 29%;
+    height: 570px;
     margin-top: 30px;
     text-align: center;
+    position: relative;
+    left: 37%;
 }
+
 /*input css*/
     .form-input{
         max-width: 300px;
@@ -77,36 +82,39 @@ body{
 }
 
 p{
-    width: 270px;
+    padding: 0px 60px;
     color: rgb(204, 205, 206);
-    margin: 20px 0 0 530px;
     font-size: 14px;
 }
 .hello{
     margin-top: 20px;
     margin-left: 14px;
 }
-.a{
-    display: block;
-    margin-top: 5px;
-    position: relative;
-    left: 510px;
-    background-color: rgb(41, 22, 72) ;
-    color: white;
-    border: 1px solid  #9020af;
-}
+
 .logfacebook{
     padding: 10px 65px 10px 70px;
     border-radius: 20px;
     font-size: 13px;
     font-weight: bold;
+    background-color: rgb(41, 22, 72) ;
+    color: white;
+    border: 1px solid  #9020af;
+    margin-bottom: 10px;
 }
 .loggoogle{
     padding: 10px 70px 10px 80px;
     border-radius: 20px;
     font-size: 13px;
     font-weight: bold;
+    background-color: rgb(41, 22, 72) ;
+    color: white;
+    border: 1px solid  #9020af;
 }
 .a:hover, .a:active{
     background-color: rgb(104, 21, 238);
+}
+.horizontal{
+    border-bottom: 1px solid #CB6CE6;
+    width: 99%;
+    margin-top: 1px;
 }
